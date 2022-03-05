@@ -1,0 +1,138 @@
+.resume-container {
+  min-height: 175vh;
+  margin-bottom: 0;
+}
+
+.resume {
+  background-image: url("../images/rainbow-smoke.png");
+  background-repeat: no-repeat;
+  line-height: 20px;
+  height: 35.25rem;
+  width: 100%;
+  border-bottom-right-radius: 14px;
+  border-bottom-left-radius: 14px;
+  padding: 20px 3rem 0 4rem;
+}
+
+
+/* Top half of the resume */
+.resume .resume-top {
+  color: rgb(255, 255, 255);
+  min-height: 93vh;
+}
+
+.resume .resume-top .resume-summary {
+  padding: 6px;
+  font-size: 18px;
+}
+
+.resume h1{
+  padding: 6px;
+  font-style: bold;
+  font-size: 30px;
+}
+
+.resume h2{
+  padding: 6px;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.resume ul {
+  padding-bottom: 12px;
+}
+
+.resume ul li {
+  padding: 8px;
+  margin-left: 24px;
+  font-size: 16px;
+}
+
+.resume h3 {
+  padding-top: 8px;
+  padding-left: 6px;
+  font-size: 20px;
+}
+
+.resume .university {
+  font-style: oblique;
+}
+
+.resume .degree {
+  font-style: italic;
+}
+
+
+/* Bottom half of the resume */
+.resume .resume-bottom h2 {
+  font-size: 30px;
+}
+
+.resume .resume-bottom .projects-list .projects-item .projects-item-desc {
+  font-size: 15px;
+}
+
+.resume .resume-bottom .projects-list .projects-item h2 {
+  font-style: italic;
+}
+
+.resume .resume-bottom .projects-list .projects-item p {
+  padding: 12px;
+}
+
+.resume .resume-bottom .projects-list .projects-item .projects-item-tech {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.resume .resume-bottom .projects-list .projects-item .projects-item-github {
+  font-weight: 600;
+}
+
+.resume .resume-bottom .projects-list .projects-item .projects-item-github {
+  font-size: 18px;
+}
+
+.resume .resume-bottom .projects-list .projects-item .projects-item-github a {
+  padding-left: 5px;
+  color: rgb(49, 49, 240);
+}
+
+
+/* Font size is reduced in accordance to the window width reducing*/
+@media screen and (max-width: 960px) {
+  .resume-container {
+    min-height: 194vh;
+    margin-bottom: 4rem;
+  }
+  
+  .resume {
+    padding-left: 2rem;
+    height: 36rem;
+  }
+
+  .resume .resume-top .resume-summary {
+    font-size: 14px;
+  }
+
+  .resume h1{
+    font-size: 24px;
+  }
+
+  .resume h2{
+    font-size: 18px;
+  }
+
+  .resume ul {
+    padding-bottom: 0;
+  }
+
+  .resume ul li {
+    font-size: 12px;
+    padding-bottom: 0;
+  }
+
+  .resume h3 {
+    font-size: 15px;
+  }
+}

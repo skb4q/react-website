@@ -1,0 +1,95 @@
+.footer-container {
+    color: rgb(238, 238, 238);
+    background: rgb(31, 31, 31);
+    margin: auto;
+    display: flex;
+    width: 100%;
+    font-size: 1.2rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.footer-section {
+    flex: 1;
+}
+
+.footer-section-heading {
+    padding-top: .5rem;
+    padding-left: 1.75rem;
+    padding-bottom: 1.05rem;
+    font-size: 1.8rem;
+    text-decoration-line: underline;
+}
+
+.external-link-list {
+    display: grid;
+}
+
+.external-link-list .external-link {
+    color: white;
+    height: 60px;
+    width: 10em;
+    text-align: left;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.external-link-list .external-link:hover {
+    background-color: rgb(95, 95, 95);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.external-link .external-logo {
+    top: -20px;
+    right: -15px;
+    overflow: hidden;
+    margin-top: 20px;
+    transform: scale(1.5);
+}
+
+.footer-contact {
+    text-align: right;
+    margin-left: 57vw;
+    padding-right: .25vw;
+}
+
+.footer-contact .footer-contact-heading {
+    font-size: 1.8rem;
+    padding-top: .5rem;
+    margin-bottom: 6px;
+    text-decoration-line: underline;
+}
+
+.footer-contact p {
+    padding-top: 8px;
+}
+
+.footer-contact .footer-contact-flavortext {
+    color: rgb(190, 184, 184);
+    padding-top: 16px;
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 960px) {
+    .footer-container {
+        display: grid;
+    }
+
+    .external-link {
+        margin-right: 55vw;
+    }
+
+    .footer-contact .footer-contact-heading {
+        margin-top: 8px;
+    }
+
+    .footer-contact {
+        text-align: left;
+        padding-left: 1.75rem;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+}
