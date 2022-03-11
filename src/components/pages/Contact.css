@@ -26,3 +26,11 @@
     font-size: 22px;
     font-weight: 550;
 }
+
+.details {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    padding: 20px 0 0 35rem;
+    margin-top: -390px;
+}
