@@ -16,8 +16,8 @@ function App() {
           <Navbar/>
           <Routes>
             <Route className='home' path='/react-website/' element={<Home/>} />
-            <Route className='resume' path='/resume/' element={<Resume/>} />
-            <Route className='contact' path='/contact/' element={<Contact/>} />
+            <Route className='resume' path='/react-website/resume' element={<Resume/>} />
+            <Route className='contact' path='/react-website/contact' element={<Contact/>} />
           </Routes>
         </Router>
       </div>
