@@ -12,7 +12,7 @@ export const MenuItems = [
     },
     {
         title: 'Contact',
-        url: '/rcontact',
+        url: '/contact/',
         cName: 'nav-links'
     }
 ]
