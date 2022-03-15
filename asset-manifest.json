@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "./static/css/main.d1262fa5.css",
-    "main.js": "./static/js/main.f2afba83.js",
+    "main.js": "./static/js/main.17631c3e.js",
     "static/media/rainbow-smoke.png": "./static/media/rainbow-smoke.0398cd19be2ca831c6be.png",
     "index.html": "./index.html",
     "main.d1262fa5.css.map": "./static/css/main.d1262fa5.css.map",
-    "main.f2afba83.js.map": "./static/js/main.f2afba83.js.map"
+    "main.17631c3e.js.map": "./static/js/main.17631c3e.js.map"
   },
   "entrypoints": [
     "static/css/main.d1262fa5.css",
-    "static/js/main.f2afba83.js"
+    "static/js/main.17631c3e.js"
   ]
 }
