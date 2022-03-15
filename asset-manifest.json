@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f892ef9f.css",
+    "main.js": "/static/js/main.f5231ee1.js",
+    "static/media/rainbow-smoke.png": "/static/media/rainbow-smoke.0398cd19be2ca831c6be.png",
+    "index.html": "/index.html",
+    "main.f892ef9f.css.map": "/static/css/main.f892ef9f.css.map",
+    "main.f5231ee1.js.map": "/static/js/main.f5231ee1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f892ef9f.css",
+    "static/js/main.f5231ee1.js"
+  ]
+}
