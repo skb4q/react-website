@@ -7,12 +7,12 @@ export const MenuItems = [
     },
     {
         title: 'Resume',
-        url: '/resume',
+        url: '/react-website/resume',
         cName: 'nav-links'
     },
     {
         title: 'Contact',
-        url: '/contact/',
+        url: '/react-website/contact',
         cName: 'nav-links'
     }
 ]
