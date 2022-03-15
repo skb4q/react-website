@@ -34,3 +34,14 @@
     padding: 20px 0 0 35rem;
     margin-top: -390px;
 }
+
+.details .remote {
+    padding-top: 20px;
+    text-decoration-line: underline;
+}
+
+@media screen and (max-width: 960px) {
+    .contact-info .details{
+        min-height: 194vh;
+    }
+}
