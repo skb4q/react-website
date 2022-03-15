@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-website/static/css/main.b1bfd5fb.css",
-    "main.js": "/react-website/static/js/main.00f0dfd3.js",
-    "static/media/rainbow-smoke.png": "/react-website/static/media/rainbow-smoke.0398cd19be2ca831c6be.png",
-    "index.html": "/react-website/index.html",
-    "main.b1bfd5fb.css.map": "/react-website/static/css/main.b1bfd5fb.css.map",
-    "main.00f0dfd3.js.map": "/react-website/static/js/main.00f0dfd3.js.map"
+    "main.css": "./static/css/main.d1262fa5.css",
+    "main.js": "./static/js/main.f2afba83.js",
+    "static/media/rainbow-smoke.png": "./static/media/rainbow-smoke.0398cd19be2ca831c6be.png",
+    "index.html": "./index.html",
+    "main.d1262fa5.css.map": "./static/css/main.d1262fa5.css.map",
+    "main.f2afba83.js.map": "./static/js/main.f2afba83.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1bfd5fb.css",
-    "static/js/main.00f0dfd3.js"
+    "static/css/main.d1262fa5.css",
+    "static/js/main.f2afba83.js"
   ]
 }
