@@ -35,8 +35,6 @@ export default function Contact() {
 
             <div className="details">
                 <p>Sooriya Kinoy Bounyalith</p>
-                <p>Phone Number: (Mobile) (615) 663-3590</p>
-                <p>E-mail: sbounyalith@gmail.com</p>
                 <p>Current City of Residence: Murfreesboro, Tennessee</p>
                 <p>OPEN TO REMOTE WORK</p>
             </div>

@@ -1,10 +1,24 @@
-import React from 'react'
+import React, { useRef } from 'react'
+import emailjs from 'emailjs-com'
 import {BottomNavigationAction} from '@material-ui/core';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import './Footer.css';
 
 function Footer() {
+
+    function sendEmail(e) {
+        e.preventDefault();
+
+        emailjs.sendForm('gmail_service', 'gmail_template', e.target, 'Xudx7mewN3mjq9y_m')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+          e.target.reset()
+    }
+
     return (
         <div className="footer-container">
             <section className="footer-section">
@@ -26,13 +40,32 @@ function Footer() {
             
 
             <section className="footer-contact">
-                <p className="footer-contact-heading">Contact Information:</p>
-                <p>Mobile Number: (615) 663-3590</p>
-                <p>E-mail: sbounyalith@gmail.com</p>
                 <p className="footer-contact-flavortext">Contact me at any time</p>
+
+                <form onSubmit={sendEmail}>
+                    <div className="form">
+                        <div className="info-field">
+                            <input type="text" className="text-input" placeholder="Name" name="from_name"/>
+                        </div>
+                        <div className="info-field">
+                            <input type="email" className="text-input" placeholder="E-mail Address" name="from_email"/>
+                        </div>
+                        <div className="info-field">
+                            <input type="text" className="text-input" placeholder="Subject" name="subject"/>
+                        </div>
+                        <div className="message-field">
+                            <textarea className="message-content" placeholder="Type message here" name="message" />
+                        </div>
+                        <div className="btn">
+                            <input type="submit" className="send-btn" value="Send Message" />
+                        </div>
+                    </div>
+                </form>
             </section>
         </div>
     )
 }
+
+// 
 
 export default Footer

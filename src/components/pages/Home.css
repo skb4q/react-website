@@ -1,6 +1,6 @@
 /* Top half of the home section */
 .home-section .home-top {
-  background-color: rgb(0, 20, 136);
+  background: rgb(31, 31, 31);
   background-size: auto;
   width: 100%;
   border-bottom-right-radius: 14px;

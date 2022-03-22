@@ -22,6 +22,9 @@ function Home() {
                     State University gave me a glimpse of some of the ups-and-downs when it comes to coding projects on stricter
                     schedules and deadlines, but at least that experience would, in turn, strengthen my resolve and become a more 
                     organized person.
+                    <br/> <br/>
+                    I am still currently learning React through being purely self-taught and am hoping to grow both my graphic 
+                    design and front-end development skills.
                 </p>
             </div>
         </div>

@@ -1,5 +1,7 @@
 .navbar-items {
-    background: rgb(0, 0, 0);
+    background-image: url("../components/images/rainbow-smoke.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 80px;
     opacity: 30;
     display: flex;
@@ -55,77 +57,7 @@
     display: none;
 }
 
-/*
-.navbar {
-    background: linear-gradient(90deg, rgb(87, 21, 21));
-    height: 200px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: initial;
-    font-size: 1.2rem;
-    position: relative;
-    top: 0;
-    z-index: 999;
-}
 
-.navbar-logo {
-    color: rgb(165, 34, 1);
-    width: 25rem;
-    justify-self: start;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 35px;
-    align-content: flex-start;
-    display: flex;
-    align-items: center;
-}
-
-.navbar-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80px;
-    max-width: 1200px;
-}
-
-.nav-menu {
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-gap: 20px;
-    list-style: none;
-    text-align: center;
-    justify-content: end;
-    margin-right: 220px;
-}
-
-.nav-item {
-    width: 10px;
-    padding: 5px 70px;
-    display: flex;
-    float: right;
-}
-
-Button{
-    align-items: flex-end;
-    text-align: center;
-    justify-content: center;
-    color: rgb(150, 30, 0);
-    background: rgb(236, 236, 236);
-}
-
-.nav-links {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(173, 0, 0);
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    padding: 1rem 1rem;
-    height: 100%;
-}
-
-.nav-links-mobile {
-    display: none;
-}
-*/
 @media screen and (max-width: 960px) {
     .nav-menu {
         display: flex;

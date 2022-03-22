@@ -4,8 +4,7 @@
 }
 
 .resume {
-  background-image: url("../images/rainbow-smoke.png");
-  background-repeat: no-repeat;
+  background: rgb(31, 31, 31);
   line-height: 20px;
   height: 35.25rem;
   width: 100%;
