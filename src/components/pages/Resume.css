@@ -27,6 +27,7 @@
 
 .resume h1{
   padding: 6px;
+  margin-bottom: 20px;
   font-style: bold;
   font-size: 30px;
 }
@@ -65,6 +66,7 @@
 /* Bottom half of the resume */
 .resume .resume-bottom h2 {
   font-size: 30px;
+  margin-bottom: 16px;
 }
 
 .resume .resume-bottom .projects-list .projects-item .projects-item-desc {
@@ -116,6 +118,7 @@
 
   .resume h1{
     font-size: 24px;
+    margin-bottom: 10px;
   }
 
   .resume h2{
