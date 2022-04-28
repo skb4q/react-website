@@ -36,6 +36,7 @@ export default function Contact() {
             <div className="details">
                 <p>Sooriya Kinoy Bounyalith</p>
                 <p>Current City of Residence: Murfreesboro, Tennessee</p>
+                <p>Looking to work on-site within a 25-mile radius</p>
                 <p>OPEN TO REMOTE WORK</p>
             </div>
         </div>
